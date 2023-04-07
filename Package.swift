@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "hummingbird-auth",
-    platforms: [.macOS(.v10_15), .iOS(.v12), .tvOS(.v12)],
+    platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v12)],
     products: [
         .library(name: "HummingbirdAuth", targets: ["HummingbirdAuth"]),
         .library(name: "HummingbirdAuthXCT", targets: ["HummingbirdAuthXCT"]),
